@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM ubuntu:20.04
 RUN apt-get update -y
 RUN apt-get install apache2 -y
 COPY fbweb/ /var/www/html/
