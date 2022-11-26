@@ -1,0 +1,222 @@
+body{
+    background: #eee8e8;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background: #385999;
+    height: 90px;
+    width: 100%;
+}
+.header-left img{
+    height: 90px;
+    width: 180px;
+    position: absolute;
+    left: 180px;
+}
+.header-right-email{
+    position: absolute;
+    right: 500px;
+    top: 10px;
+    color: #ffffff;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.header-right-password{
+    position: absolute;
+    right: 332px;
+    top: 10px;
+    color: #ffffff;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.header-right{
+    position: absolute;
+    right: 92px;
+    top: 36px;
+}
+.header-right-input-email{
+    position: absolute;
+    right: 360px;
+}
+.header-right-input-password{
+    position: absolute;
+    right: 160px;
+}
+.header-right-input-submit{
+    position: absolute;
+    right: 90px;
+    color: #ffffff;
+    background: #4c6dafef;
+    height: 23px;
+    position: absolute;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: sans-serif;
+    border: 2px solid #5271afef;
+}
+.header-right-input-submit:hover{
+    background: #5474b3;
+}
+.header-right-forgotten-account{
+    right: 270px;
+    position: absolute;
+    color: #ffffff;
+    font-size: 15px;
+    font-family: sans-serif;
+    cursor: pointer;
+    text-decoration: none;
+    top: 62px;
+}
+.header-right-forgotten-account:hover{
+    text-decoration: underline;
+}
+.left{
+    width: 55%;
+    position: absolute;
+    top: 20%;
+    left: 13%;
+}
+.hero-left{
+    font-size: 25px;
+    width: 300px;
+    font-family: sans-serif;
+    color: #385999;
+}
+.hero-left-img{
+    margin: 120px 0 0 180px;
+}
+.right{
+    width: 45%;
+    position: absolute;
+    top: 16%;
+    left: 56%;
+}
+.title1{
+    font-size: 42px;
+    color: rgb(73, 72, 72);
+    top: 18px;
+    position: absolute;
+    right: 250px;
+}
+.title2{
+    font-size: 20px;
+    color: rgb(73, 72, 72);
+    top: 64px;
+    position: absolute;
+    right: 328px;
+}
+.first-name , .sur-name{
+    top: 70px;
+    position: relative;
+    right: -70px;
+    height: 30px;
+    width: 180px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    font-size: 17px;
+}
+.enter-email{
+    top: 85px;
+    position: relative;
+    right: -70px;
+    height: 30px;
+    width:  370px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    font-size: 17px;
+}
+.new-password{
+    top: 100px;
+    position: relative;
+    right: -70px;
+    height: 30px;
+    width:  370px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    font-size: 17px;
+}
+.confirm-password{
+    top: 115px;
+    position: relative;
+    right: -70px;
+    height: 30px;
+    width:  370px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    font-size: 17px;
+}
+.birthday{
+    top: 110px;
+    position: relative;
+    right: -70px;
+    font-size: 23px;
+    color: rgb(73, 72, 72);
+}
+.date,.month,.year{
+    top: 120px;
+    position: relative;
+    right: -70px;
+    font-size: 17px;
+    color:rgb(73, 72, 72); 
+}
+.p1{
+    top: 119px;
+    position: relative;
+    right: -70px;
+    font-size: 15px;
+    color:rgb(73, 72, 72) ;
+}
+.p1 a{
+    text-decoration: none;
+    color: #385999;
+}
+.radio-button{
+    top: 115px;
+    position: relative;
+    right: -70px;
+    font-size: 20px;
+    color:rgb(73, 72, 72);
+}
+.privacy-policy{
+    top: 125px;
+    position: relative;
+    right: -70px;
+    font-size: 15px;
+    color:rgb(73, 72, 72);
+    font-family: sans-serif;
+}
+.privacy-policy a{
+    text-decoration: none;
+    font-size: 17px;
+}
+.signup{
+    top: 140px;
+    position: relative;
+    right: -70px;
+    font-size: 20px;
+    color: #ffffff;
+    background: rgb(54, 110, 81);
+    width: 150px;
+    height: 40px;
+    border: 1px solid rgb(68, 173, 119) ;
+    border-radius:5px ;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+.signup:hover{
+    background: rgb(62, 146, 103) ;
+}
+.Create-page{
+    top: 150px;
+    position: relative;
+    right: -70px;
+    font-size: 15px;
+    color: rgb(73, 72, 72);
+    padding-bottom:20px ;
+}
+.Create-page a{
+    text-decoration: none;
+    font-size: 17px;
+    font-family: sans-serif;
+}
