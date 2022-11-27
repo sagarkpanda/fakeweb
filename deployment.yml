@@ -14,7 +14,7 @@ spec:
   spec: 
    containers:
    - name: c1
-     image: sagarkrp/dockerapp:v11
+     image: sagarkrp/dockerweb:v11
      imagePullPolicy: Always
      stdin: true
      tty: true
