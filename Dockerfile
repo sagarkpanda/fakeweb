@@ -1,5 +1,6 @@
-FROM ubuntu:16.04
+FROM ubuntu:22.10
 RUN apt-get update -y
-RUN apt-get install apache2 -y
+# RUN apt install apache2 -y
+RUN apt install lighttpd -y
 COPY fbweb/ /var/www/html/
-ENTRYPOINT service apache2 start && /bin/bash
+ENTRYPOINT service lighttpd start && /bin/bash
