@@ -1,4 +1,5 @@
-<h1> Build a docker image and push to docker hub </h1>
+<h1> Kubenetes Deployment using Argo CD </h1>
+<h2> Build a docker image and push to docker hub </h2>
 
 <h3>- Build the Image </h3> 
 
