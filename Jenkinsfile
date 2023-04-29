@@ -5,7 +5,8 @@ pipeline {
         
     stage('SCM Checkout') {
       steps {
-       git branch: 'main', url: 'https://github.com/sagarkrp/fakeweb.git'
+       //git branch: 'main', url: 'https://github.com/sagarkrp/fakeweb.git'
+        echo 'hello'
       }
     }
     stage('Build') {
