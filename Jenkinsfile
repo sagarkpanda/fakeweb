@@ -5,13 +5,14 @@ pipeline {
         DOCKERHUB_CREDENTIALS = credentials('dockerhub-creds')
     }
 
-    stages {
+    /*stages {
         stage('SCM Checkout') {
             steps {
                 git branch: 'master', url: 'https://github.com/sagarkrp/fakeweb.git'
             //sh 'whoami'
             }
         }
+     */
 
         stage('Docker Login') {
             steps {
