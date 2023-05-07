@@ -27,13 +27,10 @@ pipeline {
        
         stage('Docker Build') {
         
-            steps {
-                steps {
-                    
+            steps { 
                     echo 'Building docker Image'
                     sh 'docker build -t $NEXUS_DOCKER_REPO/fakeweb:$BUILD_NUMBER .'
-                    }
-            }
+                }
         }
 
         stage('Docker Push') {
@@ -44,4 +41,3 @@ pipeline {
         }
     }
 }
-
