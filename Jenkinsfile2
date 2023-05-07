@@ -16,8 +16,12 @@ pipeline {
 
        stage('Docker Login') {
             steps {
-                sh 'echo $NEXUS_CREDS | docker login -u $NEXUS_CREDS_USR --password-stdin $NEXUS_DOCKER_REPO'
-                echo 'Login Completed'
+                script{
+                    withCredentials([usernamePassword(credentialsId: 'nexus_creds', usernameVariable: 'USER', passwordVariable: 'PASS' )]){
+                       sh ' echo $PASS | docker login -u $USER --password-stdin $NEXUS_DOCKER_REPO'
+                    }
+                   
+                }
             }
         }
        
