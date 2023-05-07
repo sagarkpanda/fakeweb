@@ -16,7 +16,7 @@ pipeline {
 
        stage('Docker Login') {
             steps {
-                sh 'echo $NEXUS_CREDS | docker login -u $NEXUS_CREDS_USR --password-stdin localhost:8082'
+                sh 'echo $NEXUS_CREDS | docker login -u $NEXUS_CREDS_USR --password-stdin $NEXUS_DOCKER_REPO'
                 echo 'Login Completed'
             }
         }
