@@ -1,7 +1,12 @@
-<h1> Kubenetes Deployment using Argo CD </h1>
-<h2> Build a docker image and push to docker hub </h2>
+<!-- <h1> Kubenetes Deployment using Argo CD </h1> -->
+<h1> Build a docker image and push to docker hub/Nexus Repositoy </h1>
 
-<h3>- Build the Image </h3> 
+## Read the whole Article here: 
+## Docker hub: <a href = "https://medium.com/@sagarkrp/docker-chapter-2-build-and-push-your-first-docker-image-7d7f9d71f1ca" target ="_blank"><img src = "https://img.shields.io/badge/medium-%23E4405G.svg?&style=for-the-badge&logo=medium&logoColor=black&white" height="22px"></a>
+
+## Nexus: <a href = "https://medium.com/@sagarkrp/how-to-push-docker-images-to-nexus-repository-using-jenkins-4cc77d247a65" target ="_blank"><img src = "https://img.shields.io/badge/medium-%23E4405G.svg?&style=for-the-badge&logo=medium&logoColor=black&white" height="22px"></a>
+
+<h3>- Build the Image </h3>
 
 - To build the image, we need to run the docker build command: ```docker build -t <name:tag> . ```
 
