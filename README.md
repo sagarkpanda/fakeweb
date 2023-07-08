@@ -1,5 +1,10 @@
 <!-- <h1> Kubenetes Deployment using Argo CD </h1> -->
-<h1> Build a docker image and push to docker hub/Nexus Repositoy </h1>
+<h1> Build a docker image and push to Docker Hub/Nexus Repositoy </h1>
+
+<p align="center">
+<img alt="NGINX" width="270px" src="https://raw.githubusercontent.com/sagarkrp/sagarkrp/main/images/docker.svg" style="padding-right:10px;" />
+</p>
+</br>
 
 ## Read the whole Article here: 
 ## Docker hub: <a href = "https://medium.com/@sagarkrp/docker-chapter-2-build-and-push-your-first-docker-image-7d7f9d71f1ca" target ="_blank"><img src = "https://img.shields.io/badge/medium-%23E4405G.svg?&style=for-the-badge&logo=medium&logoColor=black&white" height="22px"></a>
