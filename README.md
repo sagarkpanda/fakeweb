@@ -1,5 +1,5 @@
 <!-- <h1> Kubenetes Deployment using Argo CD </h1> -->
-<h1> Build a docker image and push to Docker Hub/Nexus Repositoy </h1>
+<h1> Build and Push docker image to Docker Hub/Nexus Repositoy </h1>
 
 <p align="center">
 <img alt="NGINX" width="270px" src="https://raw.githubusercontent.com/sagarkrp/sagarkrp/main/images/docker.svg" style="padding-right:10px;" />
