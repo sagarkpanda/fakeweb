@@ -18,6 +18,11 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Get short commit SHA
+        id: vars
+        run: |
+          echo "SHA_SHORT=$(git rev-parse --short HEAD)" >> $GITHUB_OUTPUT
+
       - name: Set up QEMU (for multi-arch)
         uses: docker/setup-qemu-action@v3
 
@@ -39,7 +44,7 @@ jobs:
           platforms: linux/amd64,linux/arm64
           provenance: false
           tags: |
-            ghcr.io/${{ github.repository }}:${{ github.sha}}
+            ghcr.io/${{ github.repository }}:${{ steps.vars.outputs.SHA_SHORT }}
             ghcr.io/${{ github.repository }}:latest
           cache-from: type=gha
           cache-to: type=gha,mode=max
