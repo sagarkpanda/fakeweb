@@ -2,7 +2,7 @@ name: BuildImage
 
 on:
   push:
-   paths-ignore:
+    paths-ignore:
       - '*.md'
     branches:
       - master
