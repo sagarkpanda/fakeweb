@@ -1,6 +1,13 @@
 <!-- <h1> Kubenetes Deployment using Argo CD </h1> -->
 <h1> Build and Push docker image to Docker Hub/Nexus Repositoy </h1>
 
+<b>
+  
+🦊 View the process in [GitLab](https://gitlab.com/sagarkrp/fakeweb)
+
+</b>
+
+
 <p align="center">
 <img alt="NGINX" width="270px" src="https://raw.githubusercontent.com/sagarkrp/sagarkrp/main/images/docker.svg" style="padding-right:10px;" />
 </p>
