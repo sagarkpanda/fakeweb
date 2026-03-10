@@ -90,6 +90,8 @@ jobs:
 
       - name: Verify Content
         run: curl -s http://localhost:8080 | grep -qi "Facebook"
+      - name: Webpage
+        run: curl -s http://localhost:8080
 
   # JOB 4: Push to Registry (Only if tests pass)
   push-image:
