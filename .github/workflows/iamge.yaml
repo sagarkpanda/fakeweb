@@ -75,7 +75,7 @@ jobs:
     needs: [lint-code, build-image] # This creates the "V" connection
     steps:
       - name: Download image artifact
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v8
         with:
           name: test-image
 
