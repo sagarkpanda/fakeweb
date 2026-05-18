@@ -63,7 +63,7 @@ jobs:
         run: docker save test-image:latest > test-image.tar
 
       - name: Upload image artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: test-image
           path: test-image.tar
