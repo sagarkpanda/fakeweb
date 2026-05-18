@@ -5,7 +5,14 @@
 
 version: 2
 updates:
-  - package-ecosystem: "" # See documentation for possible values
-    directory: "/" # Location of package manifests
+  # Docker dependencies
+  - package-ecosystem: "docker"
+    directory: "/"
     schedule:
-      interval: "weekly"
+      interval: "daily"
+
+  # GitHub Actions dependencies (optional but recommended)
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "daily"
