@@ -43,7 +43,7 @@ jobs:
         uses: docker/setup-buildx-action@v4
 
       - name: Build local image for testing
-        uses: docker/build-push-action@v5
+        uses: docker/build-push-action@v6
         with:
           context: .
           load: true
@@ -108,7 +108,7 @@ jobs:
         uses: docker/setup-buildx-action@v4
 
       - name: Final Build and Push
-        uses: docker/build-push-action@v5
+        uses: docker/build-push-action@v6
         with:
           context: .
           push: true
